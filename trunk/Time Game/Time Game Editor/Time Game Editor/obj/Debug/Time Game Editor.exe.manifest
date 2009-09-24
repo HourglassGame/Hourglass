@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Time Game Editor.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="SwinGame.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Time Game Editor" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Time Game Editor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SGSDK.NET.dll" size="106496">
+      <assemblyIdentity name="SGSDK.NET" version="1.0.0.0" publicKeyToken="BF3F7F1D850FD13D" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>86D7ICrPmcGLiENahISqHu89d1o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Time Game Editor.exe" size="241664">
+      <assemblyIdentity name="Time Game Editor" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>H+ntDUwC9rhZcQE+GMwuvS7u9qE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="gpl-2.0.txt" size="17987">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Bod2JOpcd+/jt+ObD5Ce2m4lpOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\jpeg.dll" size="113664">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zh4jXQahTLf6Z/+00ZeeLjoI6xM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\libfreetype-6.dll" size="426496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vAPu9oSsC1m9DYXuC0AiyfnwV/Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\libogg-0.dll" size="15872">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5zVLAc+pTz6NfmrhFXVZnOKqpOI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\libpng12-0.dll" size="131072">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vcnOhJYoOI0l/qcZ1iT4Pcu8yqc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\libtiff-3.dll" size="317952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WhjDyYad7jC0u5Qme2RXq64w0tE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\libvorbis-0.dll" size="157696">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>XhdSklRjB9LxnyGc4iOSa+kD8dQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\libvorbisfile-3.dll" size="28672">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DfPtdOsHFQvPyeeQwWikMLbW+OU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\ogg.dll" size="24576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>I+3t/2SC3LHpZtSzUCmX0eAP1VQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\SDL.dll" size="320512">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NSKTy22i5a0tSSkMPXrJ2ATJhLM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\SDL_gfx.dll" size="73728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>g3qHlVho/7mZ3EgWD+X5qffDkx4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\SDL_image.dll" size="40448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>z22ZXIyqDmuFRcTfSwzUsP8kCf4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\SDL_mixer.dll" size="312320">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eCoPRfvMdkR+mJYSR3rp4ZuVWuM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\SDL_ttf.dll" size="19456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LUBdp6wQgQxHAtn4blOKnCZmJhk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\SGSDK.dll" size="271380">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DPAcOJUJjQaIn0Vr73q4Dor13TQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\SGSDK.NET.dll" size="106496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>86D7ICrPmcGLiENahISqHu89d1o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\SGSDK.NET.XML" size="294353" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9gr93NIqa80Aq5Px8s3PhEPV6ik=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\smpeg.dll" size="235520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OYNsc41c24s+hHWzkhiIqaes+ow=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lib\zlib1.dll" size="70656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MKSMJayY9j5NuLhCACsyRcZyEOQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ReadMe.txt" size="259">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wE2zrIfo12/BG9EBq/kwnvhhpUc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\images\loader_empty.png" size="13845">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vGAPA0Oiai+l31nwBsb/fK5U8TQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\images\loader_full.png" size="13860">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>L8GaJY0J4Tt/T/x7QHod6nB7FZQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\images\SplashBack.png" size="311019">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rGCOBoNzUfdSg8mBMQ3hz0GWDMw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\images\SwinGameAni.png" size="1693965">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4ZdfBIGskgzwhQX0OaTODO8Bf7I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\readme.txt" size="171">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>N1tGS5i95m2nQzucx9DKx63nRgs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\SwinGame.ico" size="25214">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Id23v+DvB8MmwYccJLDQxFroQtM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SwinGame.ico" size="103878">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5dA2EynW4Tf39KvugNBhOqd+5dU=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
