@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A382E21-560D-4291-9827-71557E489CA3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>Hourglass</RootNamespace>
+    <AssemblyName>Hourglass</AssemblyName>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <ApplicationIcon>TimeGame.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>903E2FC3EF948F8A5D183A3521FE12A2A455E993</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Time Game VB_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Hourglass.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Hourglass.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SGSDK.NET, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bf3f7f1d850fd13d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\SGSDK.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Color = System.Drawing.Color" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Rectangle = System.Drawing.Rectangle" />
+    <Import Include="SwinGame" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.IO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form.Designer.vb">
+      <DependentUpon>Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameLogic.vb" />
+    <Compile Include="GameResources.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="structureModule.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\fonts\arial.ttf" />
+    <None Include="Resources\fonts\cour.ttf" />
+    <None Include="Resources\sounds\SwinGameStart.ogg" />
+    <None Include="Resources\SwinGame.icns" />
+    <None Include="Time Game VB_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gpl-2.0.txt" />
+    <Content Include="lib\jpeg.dll">
+    </Content>
+    <Content Include="lib\libfreetype-6.dll">
+    </Content>
+    <Content Include="lib\libogg-0.dll">
+    </Content>
+    <Content Include="lib\libpng12-0.dll">
+    </Content>
+    <Content Include="lib\libtiff-3.dll">
+    </Content>
+    <Content Include="lib\libvorbis-0.dll">
+    </Content>
+    <Content Include="lib\libvorbisfile-3.dll">
+    </Content>
+    <Content Include="lib\ogg.dll">
+    </Content>
+    <Content Include="lib\SDL.dll">
+    </Content>
+    <Content Include="lib\SDL_gfx.dll">
+    </Content>
+    <Content Include="lib\SDL_image.dll">
+    </Content>
+    <Content Include="lib\SDL_mixer.dll">
+    </Content>
+    <Content Include="lib\SDL_ttf.dll">
+    </Content>
+    <Content Include="lib\SGSDK.dll">
+    </Content>
+    <Content Include="lib\SGSDK.NET.dll" />
+    <Content Include="lib\SGSDK.NET.XML" />
+    <Content Include="lib\smpeg.dll">
+    </Content>
+    <Content Include="lib\zlib1.dll">
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <None Include="app.config" />
+    <None Include="Resources\fonts\blackadder.ttf" />
+    <None Include="Resources\fonts\edwardian.ttf" />
+    <None Include="Resources\fonts\ruritnia.ttf" />
+    <None Include="Resources\fonts\script.ttf" />
+    <None Include="Resources\images\arrow.png" />
+    <None Include="Resources\images\Background.png" />
+    <None Include="Resources\images\box.png" />
+    <None Include="Resources\images\button0_down.png" />
+    <None Include="Resources\images\button0_off_green.png" />
+    <None Include="Resources\images\button0_off_red.png" />
+    <None Include="Resources\images\button0_on_green.png" />
+    <None Include="Resources\images\button0_on_red.png" />
+    <None Include="Resources\images\button0_up.png" />
+    <None Include="Resources\images\button1_down.PNG" />
+    <None Include="Resources\images\button1_off_green.png" />
+    <None Include="Resources\images\button1_off_red.png" />
+    <None Include="Resources\images\button1_on_green.png" />
+    <None Include="Resources\images\button1_on_red.png" />
+    <None Include="Resources\images\button1_up.PNG" />
+    <None Include="Resources\images\button2_down.png" />
+    <None Include="Resources\images\button2_off_green.png" />
+    <None Include="Resources\images\button2_off_red.png" />
+    <None Include="Resources\images\button2_on_green.png" />
+    <None Include="Resources\images\button2_on_red.png" />
+    <None Include="Resources\images\button2_up.png" />
+    <None Include="Resources\images\button3_down.PNG" />
+    <None Include="Resources\images\button3_off_green.png" />
+    <None Include="Resources\images\button3_off_red.png" />
+    <None Include="Resources\images\button3_on_green.png" />
+    <None Include="Resources\images\button3_on_red.png" />
+    <None Include="Resources\images\button3_up.PNG" />
+    <None Include="Resources\images\guy_left.png" />
+    <None Include="Resources\images\guy_right.png" />
+    <None Include="Resources\images\2wide.png" />
+    <None Include="Resources\images\background1.png" />
+    <None Include="Resources\images\box_die.png" />
+    <None Include="Resources\images\credits.png" />
+    <None Include="Resources\images\flip_numbers.png" />
+    <None Include="Resources\images\flip_numbers_big.png" />
+    <None Include="Resources\images\foreground1.png" />
+    <None Include="Resources\images\Hourglass.png" />
+    <None Include="Resources\images\interface.png" />
+    <None Include="Resources\images\interfaceLeft.png" />
+    <None Include="Resources\images\interfaceRight.png" />
+    <None Include="Resources\images\laserswitch0.png" />
+    <None Include="Resources\images\laserswitch1.png" />
+    <None Include="Resources\images\laserswitch2.png" />
+    <None Include="Resources\images\laserswitch3.png" />
+    <None Include="Resources\images\leftstrip.png" />
+    <None Include="Resources\images\Level5.png" />
+    <Content Include="Resources\images\loader_empty.png" />
+    <Content Include="Resources\images\loader_full.png" />
+    <None Include="Resources\images\portal_black.png" />
+    <None Include="Resources\images\portal_effect.png" />
+    <None Include="Resources\images\portal_end.png" />
+    <None Include="Resources\images\portal_white.png" />
+    <None Include="Resources\images\spike0.png" />
+    <None Include="Resources\images\spike1.png" />
+    <None Include="Resources\images\spike2.png" />
+    <None Include="Resources\images\spike3.png" />
+    <None Include="Resources\images\menu.png" />
+    <None Include="Resources\images\Mixed Bag.PNG" />
+    <None Include="Resources\images\paradox_box.png" />
+    <None Include="Resources\images\paradox_guy.png" />
+    <None Include="Resources\images\paradox_pickup.png" />
+    <None Include="Resources\images\Platform.PNG" />
+    <None Include="Resources\images\portal_charge.PNG" />
+    <None Include="Resources\images\portal_charge_used.PNG" />
+    <None Include="Resources\images\portal_reverse.png" />
+    <None Include="Resources\images\reverse_time.png" />
+    <None Include="Resources\images\rightstrip.png" />
+    <None Include="Resources\images\space.png" />
+    <Content Include="Resources\images\SplashBack.png" />
+    <None Include="Resources\images\story.png" />
+    <Content Include="Resources\images\SwinGameAni.png" />
+    <None Include="Resources\images\time_jump.PNG" />
+    <None Include="Resources\images\Whiteportalswirlblack.png" />
+    <None Include="Resources\images\time_gun.PNG" />
+    <None Include="Resources\images\toggle0_down.png" />
+    <None Include="Resources\images\toggle0_up.png" />
+    <None Include="Resources\images\toggle1_down.png" />
+    <None Include="Resources\images\toggle1_up.png" />
+    <None Include="Resources\images\toggle2_down.png" />
+    <None Include="Resources\images\toggle2_up.png" />
+    <None Include="Resources\images\toggle3_down.png" />
+    <None Include="Resources\images\toggle3_up.png" />
+    <None Include="Resources\images\Upsypupsy.png" />
+    <None Include="Resources\images\whiteportalswirl.png" />
+    <Content Include="Resources\readme.txt" />
+    <None Include="Resources\sounds\time_reverse_sound.wav" />
+    <None Include="Resources\sounds\box_hit.wav" />
+    <None Include="Resources\sounds\box_hit_rev.wav" />
+    <None Include="Resources\sounds\box_pickup.wav" />
+    <None Include="Resources\sounds\box_pickup_rev.wav" />
+    <None Include="Resources\sounds\laser_shoot.wav" />
+    <None Include="Resources\sounds\laser_shoot_rev.wav" />
+    <None Include="Resources\sounds\pickup_pickup.wav" />
+    <None Include="Resources\sounds\pickup_pickup_rev.wav" />
+    <None Include="Resources\sounds\portal_in.wav" />
+    <None Include="Resources\sounds\portal_in_rev.wav" />
+    <None Include="Resources\sounds\portal_sound.wav" />
+    <None Include="Resources\sounds\spiked.wav" />
+    <None Include="Resources\sounds\squished.wav" />
+    <None Include="Resources\sounds\switch_push_down.wav" />
+    <None Include="Resources\sounds\switch_push_down_rev.wav" />
+    <None Include="Resources\sounds\switch_push_up.wav" />
+    <None Include="Resources\sounds\switch_push_up_rev.wav" />
+    <None Include="Resources\sounds\switch_toggle.wav" />
+    <None Include="Resources\sounds\switch_toggle_rev.wav" />
+    <None Include="Resources\sounds\switch_trip_laser.wav" />
+    <None Include="Resources\sounds\switch_trip_laser_rev.wav" />
+    <None Include="Resources\sounds\throw.wav" />
+    <None Include="Resources\sounds\time_jump_sound.wav" />
+    <Content Include="Resources\SwinGame.ico" />
+    <Content Include="SwinGame.ico" />
+    <Content Include="TimeGame.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Resources\SwinGame.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="SwinGame.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\maps\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(ProjectDir)resources\*" "$(TargetDir)resources\" /s/y/d/e
+xcopy "$(ProjectDir)lib\*" "$(TargetDir)" /s/y/d/e</PostBuildEvent>
+  </PropertyGroup>
+</Project>

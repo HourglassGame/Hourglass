@@ -1,0 +1,142 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class EditingForm
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing AndAlso components IsNot Nothing Then
+            components.Dispose()
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.b_wall = New System.Windows.Forms.Button
+        Me.b_box = New System.Windows.Forms.Button
+        Me.b_portal = New System.Windows.Forms.Button
+        Me.b_platform = New System.Windows.Forms.Button
+        Me.b_switch = New System.Windows.Forms.Button
+        Me.b_select = New System.Windows.Forms.Button
+        Me.b_save = New System.Windows.Forms.Button
+        Me.b_load = New System.Windows.Forms.Button
+        Me.b_delete = New System.Windows.Forms.Button
+        Me.SuspendLayout()
+        '
+        'b_wall
+        '
+        Me.b_wall.Location = New System.Drawing.Point(12, 12)
+        Me.b_wall.Name = "b_wall"
+        Me.b_wall.Size = New System.Drawing.Size(96, 28)
+        Me.b_wall.TabIndex = 0
+        Me.b_wall.Text = "Wall Tool"
+        Me.b_wall.UseVisualStyleBackColor = True
+        '
+        'b_box
+        '
+        Me.b_box.Location = New System.Drawing.Point(114, 46)
+        Me.b_box.Name = "b_box"
+        Me.b_box.Size = New System.Drawing.Size(96, 28)
+        Me.b_box.TabIndex = 1
+        Me.b_box.Text = "Add Box"
+        Me.b_box.UseVisualStyleBackColor = True
+        '
+        'b_portal
+        '
+        Me.b_portal.Location = New System.Drawing.Point(114, 13)
+        Me.b_portal.Name = "b_portal"
+        Me.b_portal.Size = New System.Drawing.Size(96, 27)
+        Me.b_portal.TabIndex = 2
+        Me.b_portal.Text = "Add Portal" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.b_portal.UseVisualStyleBackColor = True
+        '
+        'b_platform
+        '
+        Me.b_platform.Location = New System.Drawing.Point(114, 80)
+        Me.b_platform.Name = "b_platform"
+        Me.b_platform.Size = New System.Drawing.Size(96, 28)
+        Me.b_platform.TabIndex = 3
+        Me.b_platform.Text = "Add Platform"
+        Me.b_platform.UseVisualStyleBackColor = True
+        '
+        'b_switch
+        '
+        Me.b_switch.Location = New System.Drawing.Point(114, 114)
+        Me.b_switch.Name = "b_switch"
+        Me.b_switch.Size = New System.Drawing.Size(96, 28)
+        Me.b_switch.TabIndex = 4
+        Me.b_switch.Text = "Add Switch"
+        Me.b_switch.UseVisualStyleBackColor = True
+        '
+        'b_select
+        '
+        Me.b_select.Location = New System.Drawing.Point(12, 46)
+        Me.b_select.Name = "b_select"
+        Me.b_select.Size = New System.Drawing.Size(96, 28)
+        Me.b_select.TabIndex = 5
+        Me.b_select.Text = "Select Tool"
+        Me.b_select.UseVisualStyleBackColor = True
+        '
+        'b_save
+        '
+        Me.b_save.Location = New System.Drawing.Point(12, 294)
+        Me.b_save.Name = "b_save"
+        Me.b_save.Size = New System.Drawing.Size(96, 28)
+        Me.b_save.TabIndex = 6
+        Me.b_save.Text = "Save"
+        Me.b_save.UseVisualStyleBackColor = True
+        '
+        'b_load
+        '
+        Me.b_load.Location = New System.Drawing.Point(114, 294)
+        Me.b_load.Name = "b_load"
+        Me.b_load.Size = New System.Drawing.Size(96, 28)
+        Me.b_load.TabIndex = 7
+        Me.b_load.Text = "Load"
+        Me.b_load.UseVisualStyleBackColor = True
+        '
+        'b_delete
+        '
+        Me.b_delete.Location = New System.Drawing.Point(112, 177)
+        Me.b_delete.Name = "b_delete"
+        Me.b_delete.Size = New System.Drawing.Size(96, 28)
+        Me.b_delete.TabIndex = 8
+        Me.b_delete.Text = "Delete"
+        Me.b_delete.UseVisualStyleBackColor = True
+        '
+        'EditingForm
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(220, 334)
+        Me.Controls.Add(Me.b_delete)
+        Me.Controls.Add(Me.b_load)
+        Me.Controls.Add(Me.b_save)
+        Me.Controls.Add(Me.b_select)
+        Me.Controls.Add(Me.b_switch)
+        Me.Controls.Add(Me.b_platform)
+        Me.Controls.Add(Me.b_portal)
+        Me.Controls.Add(Me.b_box)
+        Me.Controls.Add(Me.b_wall)
+        Me.Name = "EditingForm"
+        Me.Text = "Tools"
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents b_wall As System.Windows.Forms.Button
+    Friend WithEvents b_box As System.Windows.Forms.Button
+    Friend WithEvents b_portal As System.Windows.Forms.Button
+    Friend WithEvents b_platform As System.Windows.Forms.Button
+    Friend WithEvents b_switch As System.Windows.Forms.Button
+    Friend WithEvents b_select As System.Windows.Forms.Button
+    Friend WithEvents b_save As System.Windows.Forms.Button
+    Friend WithEvents b_load As System.Windows.Forms.Button
+    Friend WithEvents b_delete As System.Windows.Forms.Button
+End Class

@@ -1,0 +1,63 @@
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.exe
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.pdb
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.xml
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\bin\Debug\SGSDK.NET.dll
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\bin\Debug\SGSDK.NET.xml
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.exe
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.xml
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.pdb
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.vbproj.GenerateResource.Cache
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.EditingForm.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.PortalForm.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.PlatformForm.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.SwitchForm.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.PickupForm.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.exe.manifest
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.application
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.exe.manifest
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.application
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.SpikeForm.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.LogicForm.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.exe
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.xml
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.pdb
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.exe.manifest
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.application
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.exe
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.pdb
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.xml
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\bin\Debug\SGSDK.NET.dll
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\bin\Debug\SGSDK.NET.xml
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.LogicForm.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.PickupForm.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.EditingForm.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.PlatformForm.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.PortalForm.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.SpikeForm.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.SwitchForm.resources
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.vbproj.GenerateResource.Cache
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.exe.manifest
+C:\Documents and Settings\user\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.application
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.exe
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.xml
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.pdb
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.exe.manifest
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.application
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.exe
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\bin\Debug\SGSDK.NET.dll
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\bin\Debug\SGSDK.NET.xml
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.LogicForm.resources
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.PickupForm.resources
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.EditingForm.resources
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.PlatformForm.resources
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.PortalForm.resources
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.SpikeForm.resources
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time_Game_Editor.SwitchForm.resources
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.exe.manifest
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\obj\Debug\Time Game Editor.application
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.pdb
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game Editor\Time Game Editor\bin\Debug\Time Game Editor.xml

@@ -1,0 +1,48 @@
+Public Class EditingForm
+
+    Private Sub EditingForm_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub b_wall_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles b_wall.Click
+        pressed_wall = True
+    End Sub
+
+    Private Sub b_select_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles b_select.Click
+        pressed_select = True
+    End Sub
+
+    Private Sub b_portal_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles b_portal.Click
+        pressed_portal = True
+    End Sub
+
+    Private Sub b_box_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles b_box.Click
+        pressed_box = True
+    End Sub
+
+    Private Sub Bb_platform_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles b_platform.Click
+        pressed_platform = True
+    End Sub
+
+    Private Sub b_switch_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles b_switch.Click
+        pressed_switch = True
+    End Sub
+
+    Private Sub b_delete_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles b_delete.Click
+        pressed_delete = True
+    End Sub
+
+    Private Sub b_save_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles b_save.Click
+        If SaveFile.ShowDialog() = Windows.Forms.DialogResult.OK Then
+            save_string = SaveFile.FileName
+            pressed_save = True
+        End If
+    End Sub
+
+    Private Sub b_load_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles b_load.Click
+        If LoadFile.ShowDialog() = Windows.Forms.DialogResult.OK Then
+            load_string = LoadFile.FileName
+            pressed_load = True
+        End If
+    End Sub
+End Class
