@@ -135,3 +135,20 @@ C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game
 C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game VB\Time Game VB\obj\Debug\Time Game VB.vbproj.GenerateResource.Cache
 C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game VB\Time Game VB\obj\Debug\Hourglass.exe.manifest
 C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\Time Game SVN\Time Game\Time Game VB\Time Game VB\obj\Debug\Hourglass.application
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\bin\Debug\Hourglass.exe.config
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\obj\Debug\Hourglass.exe
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\obj\Debug\Hourglass.xml
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\obj\Debug\Hourglass.pdb
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\bin\Debug\Hourglass.exe.manifest
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\bin\Debug\Hourglass.application
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\bin\Debug\Hourglass.exe
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\bin\Debug\Hourglass.pdb
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\bin\Debug\Hourglass.xml
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\bin\Debug\SGSDK.NET.dll
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\bin\Debug\SGSDK.NET.xml
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\obj\Debug\Hourglass.Form.resources
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\obj\Debug\Hourglass.Resources.resources
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\obj\Debug\Time Game VB.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\obj\Debug\Hourglass.exe.manifest
+C:\Documents and Settings\Tim\My Documents\Visual Studio 2005\Projects\time game VB SVN\Time Game VB\obj\Debug\Hourglass.application
