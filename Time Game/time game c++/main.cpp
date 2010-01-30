@@ -10,52 +10,76 @@
 double elpased_time;
 clock_t start_timer,finish_timer;
 
-BITMAP *xSprite;
+BITMAP* foreground;
+BITMAP* buffer;
+
+
+
+void Draw()
+{
+    acquire_screen();
+    draw_sprite( screen, buffer, 0, 0);
+    release_screen();
+}
 
 int main(){
-         
-    start_timer = clock();
-           
+      
     allegro_init();
     install_keyboard();
     set_color_depth(32);
     set_gfx_mode( GFX_AUTODETECT_WINDOWED, 1024, 768, 0, 0); 
     // GFX_AUTODETECT as first param for fullscreen
     // GFX_AUTODETECT_WINDOWED as first param for windowed
+    
+    // Get working directory
     char CurrentPath[_MAX_PATH];
     getcwd(CurrentPath, _MAX_PATH);
     
     // how to load images
-    xSprite = load_bitmap(strcat(CurrentPath,"/resources/images/testlevel.bmp"), NULL);
+    foreground = load_bitmap(strcat(CurrentPath,"/resources/images/testlevel.bmp"), NULL);
+    buffer = create_bitmap( 1024, 768);
     
-    // check if it's loaded
-    if (!xSprite) {
-        textout_ex( screen, font, "fail"  , 10, 10, makecol( 255, 255, 255), makecol( 0, 0, 0) );   
-    }
-    textout_ex( screen, font, "@", 50, 50, makecol( 255, 0, 0), makecol( 0, 0, 0) );
-
-    acquire_screen(); // put in front of draw area
-    //textout_ex( screen, font, CurrentPath  , 10, 10, makecol( 255, 255, 255), makecol( 255, 255, 255) );
+    // how to do text textout_ex( screen, font, "@", 50, 50, makecol( 255, 0, 0), makecol( 0, 0, 0) );
     
-    draw_sprite( screen, xSprite, 0, 0);
-   
-    finish_timer = clock();    
-    elpased_time = (double(finish_timer)-double(start_timer))/CLOCKS_PER_SEC;
+    double step_interval = 0.029*CLOCKS_PER_SEC;
+    draw_sprite( buffer, foreground, 0, 0);
 
     // game loop timing
-    char testString[20];
-    gcvt(elpased_time, 10, testString); // arg3(string) = arg1(double) to string with arg2(int) figures.
-
-    textout_ex( screen, font, testString, 150, 150, makecol( 255, 0, 0), makecol( 0, 0, 0) );
-    release_screen(); // put at the end of drawing
-
-     while( !key[KEY_ESC]){
-     
-        // game loop
-   
+    // arg3(string) = arg1(double) to string with arg2(int) figures.
+    
+    
+    
+    int count = 0;
+    // Game Loop
+    start_timer = clock();
+    
+    while( !key[KEY_ESC]){
+        
+        finish_timer = clock();
+        elpased_time = (double(finish_timer)-double(start_timer));
+        
+        if (elpased_time >= step_interval) {
+            
+            start_timer = clock();
+            rectfill( buffer, 100, 100, 250, 250, makecol ( 0, 0, 0));
+            
+            char testString[20];
+            gcvt(elpased_time, 10, testString);
+            textout_ex( buffer, font, testString, 150, 150, makecol( 255, 0, 0), makecol( 0, 0, 0) );
+            
+            count ++;
+            sprintf(testString,"%d",count);
+            textout_ex( buffer, font, testString, 150, 200, makecol( 255, 0, 0), makecol( 0, 0, 0) );
+            
+            Draw();
+            
+        }
     }  
 
-    readkey();
+    destroy_bitmap( foreground);
+    destroy_bitmap( buffer);
+    
+    //readkey();
     
     return 0;
     
